@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "handlebars": "^1.0.6",
+    "lodash": "3.10.1",
+    "moment": "^1.1.0",
+    "pino": "^1.0.0",
+    "sequelize": "^6.1.0",
+    "@snyk/protect": "latest"
+  }
+}
